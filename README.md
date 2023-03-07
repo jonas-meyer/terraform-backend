@@ -9,7 +9,7 @@ This repository setups an S3 bucket in AWS in order to store such terraform stat
 > Please note that the state of resources created with this terraform code is not stored in AWS ("chicken-egg-problem"), but rather locally in `.tfstate`-files in the respective envs-folders and that these folders are checked into git (which is usually not a good practice for resources that change frequently)
 
 ## Prerequisites
-1. In order to run terraform, you need to install it first. I recommend `asdf` or `brew` for doing so. Current version is `terraform 1.2.9`.
+1. In order to run terraform, you need to install it first. 
 2. Also, you need to have an AWS CLI client installed along with credentials for the account the remote backend resources shall be created in.
 
 ## Configuration
