@@ -1,6 +1,6 @@
 variable "region" {
   description = "The AWS region"
-  default     = "eu-central-1"
+  default     = "eu-west-2"
 }
 
 variable "stage" {

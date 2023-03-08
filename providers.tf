@@ -12,6 +12,7 @@ terraform {
 
 provider "aws" {
   region = var.region
+  s3_use_path_style = true
 
   default_tags {
     tags = local.common_tags

@@ -23,7 +23,7 @@ export STAGE=THE_ENVIRONMENT_YOU_WANT_TO_DEPLOY
 make apply-tf
 ```
 
-_(The Makefile automatically initializes terraform (using `terraform init` ), default is `STAGE=sandbox`)_
+_(The Makefile automatically initializes terraform (using `terraform init` ), default is `STAGE=development`)_
 
 # Other repositories using the remote backend
 Other repositories can now use the created S3 bucket as a remote backend. 

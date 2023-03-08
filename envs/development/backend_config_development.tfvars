@@ -1,2 +1,2 @@
-path          = "./envs/sandbox/terraform-sandbox.tfstate"
-workspace_dir = "./envs/sandbox"
+path          = "./envs/development/terraform-development.tfstate"
+workspace_dir = "./envs/development"
